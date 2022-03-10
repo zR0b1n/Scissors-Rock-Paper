@@ -1,0 +1,51 @@
+body{
+	background-color: #0094FF;
+	color: white;
+	user-select: none;
+}
+
+.SSP-WRP{
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+.SSP-WRP a{
+	font-size: 32px;
+	font-weight: bold;
+}
+.SSP-WRP select{
+	background-color: #0094FF;
+	color: white;
+
+	border-style: solid;
+	border-color: white;
+	border-width: 4px;
+	border-radius: 8px;
+
+	height: 45px;
+	width: 200px;
+	text-align: center;
+	font-size: 24px;
+}
+.SSP-WRP button{
+	cursor: pointer;
+
+	transition: 0.3s;
+
+	border-style: solid;
+	border-color: white;
+	border-width: 4px;
+	border-radius: 8px;
+
+	background-color: transparent;
+	color: white;
+	font-size: 24px;
+
+	height: 65px;
+	width: 240px;
+}
+.SSP-WRP button:hover{
+	transform: 0.3s;
+	opacity: 0.5;
+}
